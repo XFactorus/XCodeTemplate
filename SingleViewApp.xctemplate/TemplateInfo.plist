@@ -2,10 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Nodes</key>
+	<array>
+		<string>ViewControllers</string>
+	</array>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.quantag.APP_ID</string>
+	<string>com.YOUR_ORGANIZATION.APP_ID</string>
 	<key>Ancestors</key>
 	<array>
 		<string>com.apple.dt.unit.storyboardApplication</string>
@@ -58,6 +62,13 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>ViewControllers</key>
+		<dict>
+			<key>TargetIndices</key>
+			<array/>
+			<key>Path</key>
+			<string>ViewControllers</string>
+		</dict>
 		<key>Base.lproj/Main.storyboard</key>
 		<dict>
 			<key>Path</key>
